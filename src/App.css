@@ -26,28 +26,23 @@ header > h1{
     line-height:17px;
 }
 
-
 .entry{
     width:470px;
     margin:45px auto;
     display:flex;
-    gap:19px;
 }
 
 .entry-details{
     margin:10px 0;
 }
-.location-photo{
-    width:125px;
-    height:180px;
-    border-radius:5px;  
-}
 
 .main-image-container {
     width: 125px;
     height: 168px;
-    overflow: hidden; 
+    overflow: hidden;
     border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
 }
 
 .main-image {
